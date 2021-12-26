@@ -18,7 +18,7 @@ contract = web3.eth.contract(address=address, abi=abi)
 # Read the default greeting
 print(contract.functions.greet().call())
 # Set a new greeting
-tx_hash = contract.functions.setGreeting('HEELLLLOOOOOO!!!').transact()
+tx_hash = contract.functions.setGreeting('23453345').transact()
 # Wait for transaction to be mined
 web3.eth.waitForTransactionReceipt(tx_hash)
 # Display the new greeting value
