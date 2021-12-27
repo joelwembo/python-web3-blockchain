@@ -1,5 +1,5 @@
 from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
-client = Client(api_key, api_secret)
+client = Client(api_key, api_secret) # must define api_secret
 
 # get market depth
 depth = client.get_order_book(symbol='BNBBTC')
