@@ -1,6 +1,10 @@
 import json
 from web3 import Web3
 
+# The web3.eth.Contract object makes it easy to interact with smart contracts on the ethereum blockchain. 
+# When you create a new contract object you give it the json interface of the respective smart contract and 
+# web3 will auto convert all calls into low level ABI calls over RPC for you.
+
 # Set up web3 connection with Ganache
 ganache_url = "http://127.0.0.1:7545"
 web3 = Web3(Web3.HTTPProvider(ganache_url))
