@@ -32,7 +32,7 @@ contract = web3.eth.contract(
 
 print(tx_receipt.contractAddress)
 
-# # # Display the default greeting from the contract
+# # # Display the default greeting from the contract,...
 print('Default contract greeting: {}'.format(
     contract.functions.greet().call()
 ))
