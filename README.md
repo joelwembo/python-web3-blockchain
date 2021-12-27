@@ -12,3 +12,9 @@ The original API was derived from the Web3.js Javascript API, but has since evol
 Blockchain
 
 Blockchain is a type of shared database that differs from a typical database in the way that it stores information;
+
+
+Web 3
+
+
+In Web 3, these shares are called tokens or cryptocurrencies, and they represent ownership of decentralized networks known as blockchains. If you hold enough of these tokens, you have a say over the network.
